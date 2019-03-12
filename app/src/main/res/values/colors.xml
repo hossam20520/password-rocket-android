@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#5DFF57</color>
+    <color name="back_pass">#A68F8F8F</color>
+    <color name="color_hint_pass">#D2D2D2</color>
+    <color name="button_pass">#FF7676</color>
+    <color name="text_color_butt_pass">#FFFFFF</color>
+    <color name="sign_up">#9AB2FF</color>
+</resources>

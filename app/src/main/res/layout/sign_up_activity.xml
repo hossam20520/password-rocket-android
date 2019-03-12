@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/back_pass"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/fnamew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/background_light">
+
+                <EditText
+                    android:id="@+id/fname"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:hint="First Name"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/color_hint_pass"
+                    android:textSize="14sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/lnamew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@android:color/background_light">
+
+                <EditText
+                    android:id="@+id/lname"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:hint="last name"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/color_hint_pass"
+                    android:textSize="14sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/emailw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/color_hint_pass">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/color_hint_pass"
+                    android:textSize="14sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_up"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/color_hint_pass">
+
+                <EditText
+                    android:id="@+id/password_upp"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/color_hint_pass"
+                    android:textSize="14sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmw"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="@android:color/background_light">
+
+                <EditText
+                    android:id="@+id/confirm_f"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:inputType="text"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/color_hint_pass"
+                    android:textSize="14sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/Sign_up"
+                android:layout_width="254dp"
+                android:layout_height="58dp"
+
+                android:background="@color/button_pass"
+                android:text="Sign Up"
+                android:textColor="@color/text_color_butt_pass" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Or "
+                android:textColor="@color/text_color_butt_pass"
+                android:textColorLink="@color/text_color_butt_pass"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/login_nn"
+                android:layout_width="193dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="50dp"
+
+                android:background="@color/sign_up"
+                android:text="Login"
+                android:textColor="@color/text_color_butt_pass" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar_sign"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="85dp" />
+
+    </LinearLayout>
+</RelativeLayout>
